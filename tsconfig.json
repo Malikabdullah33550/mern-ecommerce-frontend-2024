@@ -1,19 +1,19 @@
-// {
-//   "files": [],
-//   "references": [
-//     { "path": "./tsconfig.app.json" },
-//     { "path": "./tsconfig.node.json" }
-//   ]
-// }
-
 {
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ],
-  "compilerOptions": {
-    "noUnusedLocals": false, // Change to false if you want to suppress warnings
-    "noUnusedParameters": false // Change to false if you want to suppress warnings
-  }
+  ]
 }
+
+// {
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ],
+//   "compilerOptions": {
+//     "noUnusedLocals": false, // Change to false if you want to suppress warnings
+//     "noUnusedParameters": false // Change to false if you want to suppress warnings
+//   }
+// }
