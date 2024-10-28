@@ -15,7 +15,7 @@ const Linecharts = () => {
 
   const { isLoading, data, error, isError } = useLineQuery(user?._id!);
 
-  const charts = data?.charts!;
+  // const charts = data?.charts!;
 
   const products = data?.charts.products || [];
   const users = data?.charts.users || [];
